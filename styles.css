@@ -311,7 +311,7 @@
 }
 .product:hover {
     cursor: pointer;
-    max-width: width 320px;;
+    max-width: width 320px;/*  */
     
 }
 
@@ -474,7 +474,7 @@
     display: block;
     width: 198px;
     height: 218px;
-    background-color: gray;
+    background-color: #ff0000;
     
 }
 
@@ -563,7 +563,7 @@
 
 .feedback-contacts {
     padding-top: 92px;
-    padding-bottom:110 px;
+    padding-bottom:110px;
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
@@ -613,9 +613,7 @@
     width: 134px;
     max-height: 4px;
     margin-top: 40px;
-
-    
-    
+ 
 }
 
 .feedback__body {
@@ -658,8 +656,7 @@
     background-color: #f3f3f3;
     padding: 22px;
     margin-bottom: 35px;
-
-    
+ 
 }
 
 .feedback__mail {
@@ -724,7 +721,6 @@
     
     
     
-
 }
 .contacts__heading {
     text-transform: uppercase;
@@ -783,7 +779,7 @@
 }
 
 .footer__social-links > .footer__link:not(:last-child){
-    margin-right: 20px;
+    margin-right: 15px;
 
 }
 
@@ -835,6 +831,7 @@
         max-width: 100%;
         grid-column: 1 / 6;
         grid-row: 2 / 3;
+        left: 500px;
     }
 }
 
@@ -888,6 +885,10 @@
         padding: 1vw;
     
     }
+    .contacts {
+        left: 50px;
+        top:-20px;
+    }
 }
     
 @media screen and (max-width:760px) {
@@ -922,8 +923,8 @@
     .intro__heading {
         font-size: 40px;
     }
+    
 }
-
 
 /*Popup-menu*/
 
@@ -941,10 +942,11 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .popup-menu__buton {
         display: block;
     }
+
     .menu {
         overflow: hidden;
         width: 1px;
@@ -956,6 +958,7 @@
         clip: rect(0 0 0 0);
     
     }
+}
     .popup-menu {
         align-self: center;
         position: relative;
@@ -980,10 +983,10 @@
         background-color: #000000;
         transition: visibility,transfotm 1s,0.5s ease-in-out;
     }
-    }    
+
 
     
-    @media screen and (min-width:600px) {
+    @media screen and (min-width:800px) {
         .popup-menu__list {
             visibility:hidden;
         }
@@ -1002,7 +1005,7 @@
         }
         .popup-menu__item:hover {
             background-color: #ff3f40;
-             
+
         }
         .popup-menu__link {
             display: flex;
@@ -1015,10 +1018,9 @@
             font-weight: 700;
             
         }
-
-        
     
- 
+
+
 
 
 
